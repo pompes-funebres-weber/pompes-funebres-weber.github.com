@@ -1,0 +1,14 @@
+/* TEAM */
+  Chef:Gabrielle Weber
+  From:Metz, Lorraine, France
+
+  Web developer:Arthur Weber
+  Contact: arthur.weber [at] viacesi.fr
+  Twitter: @godu
+  From:Levallois-Perret, Hauts-de-Seine, France
+
+/* SITE */
+  Last update:2012/07/12
+  Language:French
+  Doctype:HTML5
+  IDE: Sublime Text 2
