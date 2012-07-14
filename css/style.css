@@ -9,8 +9,58 @@
 
 .carousel .item > img { display: inline-block; }
 
+@font-face {
+  font-family: 'TrajanPro';
+  src: url('font/TrajanPro-Regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'TrajanPro';
+  font-weight: bold;
+  src: url('font/TrajanPro-Bold.otf') format("opentype");
+}
 
 
+body {
+  font-family: 'TrajanPro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input,
+button,
+select,
+textarea {
+  font-family: 'TrajanPro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+.navbar-search .search-query {
+  font-family: 'TrajanPro',"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+@media (max-width: 480px) {
+  .navbar-fixed-top, .navbar-fixed-bottom {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
 
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .well {
+    padding: 10px;
+  }
+
+  .table th {
+    font-weight:bold;
+  }
+}
+
+@media (max-width: 979px) {
+  .table th, .table td {
+    padding: 5px;
+  }
+
+  .well {
+    padding: 10px;
+  }
+}
