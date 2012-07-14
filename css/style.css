@@ -35,6 +35,10 @@ textarea {
   font-family: 'TrajanPro',"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.navbar .brand {
+  padding: 4px 20px 4px;
+}
+
 @media (max-width: 480px) {
   .navbar-fixed-top, .navbar-fixed-bottom {
     margin-left: -10px;
