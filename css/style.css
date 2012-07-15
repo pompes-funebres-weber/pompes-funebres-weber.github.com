@@ -68,3 +68,7 @@ textarea {
     padding: 10px;
   }
 }
+
+.carousel-control.right , .carousel-control.left {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
