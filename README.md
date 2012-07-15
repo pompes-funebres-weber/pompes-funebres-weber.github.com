@@ -1,5 +1,5 @@
 pompe-funebre-weber
 ===================
 
-pompes-funebres-weber.github.com
-pompesfunebresweber.fr
+- pompes-funebres-weber.github.com
+- pompesfunebresweber.fr
