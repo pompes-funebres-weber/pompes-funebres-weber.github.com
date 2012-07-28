@@ -208,6 +208,14 @@
                           </tbody>
                         </table>
                       </div>
+                      <div class="span12">
+                        <div class="alert alert-error">
+                          <strong>Rappel immédiat et gratuit : renseigner votre numéro de téléphone</strong>
+                          <div class="row-fluid">
+                            <button id="recontact" class="span12 btn btn-danger">Cliquez ici</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -536,8 +544,7 @@
 
 
     <!-- /container -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 
     <script src="js/libs/bootstrap/tab.js"></script>
     <script src="js/libs/bootstrap/transition.js"></script>
@@ -547,10 +554,29 @@
 
     <!-- <script src="js/script.js"></script> -->
     <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-       s.parentNode.insertBefore(g,s)}(document,'script'));
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){
+      var g=d.createElement(t),
+      s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)
+    }(document,'script'));
+
+
+    (function(d){
+      d.getElementById('recontact').onclick = function(){
+        debugger;
+        var to = 'gml.weber@gmail.com';
+        var subject = 'Demande de contact - Pompes Funèbres Weber';
+        var body = 'Rappelez-moi au : '
+        var numero = prompt('Renseignez votre numéro de téléphone');
+
+        var mailto = 'mailto:'+to+'?subject='+subject+'&body='+body+numero;
+
+        if(numero !== '' && numero !== null && typeof numero !== 'undefined')
+          location.href = mailto;
+      }
+    }(document));
     </script>
 
   </body>
