@@ -36,8 +36,8 @@
 
   <style>
   body {
-   padding-top: 60px;
-   padding-bottom: 40px;
+   padding-top: 30px;
+   padding-bottom: 30px;
  }
  </style>
  <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -50,13 +50,34 @@
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-  <div class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="hero-unit hidden-phone">
+      <div class="row-fluid">
+        <img class="span3 visible-desktop" src="img/logo.png" alt="Pompes funèbres Weber">
+        <div class="span9 visible-desktop">
+          <h1>
+            Pompes Funèbres
+            <br/>
+            WEBER
+          </h1>
+          <h2>Une famille au service de la votre</h2>
+        </div>
+        <div class="span12 hidden-desktop">
+          <h1>
+            Pompes Funèbres
+            <br/>
+            WEBER
+          </h1>
+          <h2>Une famille au service de la votre</h2>
+        </div>
+      </div>
+    </div>
+
+  <div class="navbar">
     <div class="navbar-inner">
       <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span>Menu</span>
         </a>
         <a class="brand" href="#">
           <img height="36" src="img/logo-header.png" alt="Pompes funèbres Weber">
@@ -75,28 +96,12 @@
     </div>
   </div>
 
-
-  <div class="container">
-    <div class="hero-unit hidden-phone">
-      <div class="row-fluid">
-        <img class="span3 visible-desktop" src="img/logo.png" alt="Pompes funèbres Weber">
-        <div class="span9 visible-desktop">
-          <h1>POMPES FUNÈBRES WEBER</h1>
-          <h2>UNE FAMILLE AU SERVICE DE LA VOTRE</h2>
-        </div>
-        <div class="span12 hidden-desktop">
-          <h1>POMPES FUNÈBRES WEBER</h1>
-          <h2>UNE FAMILLE AU SERVICE DE LA VOTRE</h2>
-        </div>
-      </div>
-    </div>
-
     <div class="tab-content">
 
 
       <div class="tab-pane active" id="home">
         <div class="row-fluid">
-          <div class="span8">
+          <div class="span7">
             <div class="well">
               <div id="carouselHome" class="carousel slide">
                 <div class="carousel-inner">
@@ -129,455 +134,451 @@
                 <a class="carousel-control right" href="#carouselHome" data-slide="next">&gt;</a>
               </div>
             </div>
+
+            <div class="well">
+              <div class="row-fluid">
+                <div class="span12">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th colspan="2">
+                          <h3>NOUS CONTACTER</h3>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="span5">
+                          <p>TEL</p>
+                        </th>
+                        <td class="span7">
+                          <p>
+                            <strong>03 87 38 11 20</strong>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="span5">
+                          <p>FAX</p>
+                        </th>
+                        <td class="span7">
+                          <p>
+                            <strong>09 85 42 23 64</strong>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="span5">
+                          <p>MAIL</p>
+                        </th>
+                        <td class="span7">
+                          <p>
+                            <strong><span><a class="linkclass" href="mailto:gml.weber@gmail.com">gml.weber@gmail.com</a></span></strong>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="span5">
+                          <p>ADRESSE</p>
+                        </th>
+                        <td class="span7">
+                          <p>
+                            <strong>25 RUE LOTHAIRE 57000 METZ</strong>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th rowspan="2" class="span5">
+                          <p>Horaires d'ouverture</p>
+                        </th>
+                        <td class="span7">
+                          <p>
+                            du lundi au vendredi
+                          </p>
+                          <p>
+                            de <strong>8h30 à 19h</strong>
+                          </p>
+                          <p>
+                            le samedi
+                          </p>
+                          <p>
+                            de <strong>9h à 15h</strong>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
           </div>
+          <div class="span5">
+            <div class="row-fluid">
+              <div class="span12">
+
+                <div class="alert alert-error">
+                  <strong>Rappel immédiat et gratuit : renseigner votre numéro de téléphone</strong>
+                  <div class="row-fluid">
+                    <button id="recontact" class="span12 btn btn-danger">Cliquez ici</button>
+                  </div>
+                </div>
+                <div class="well">
+                  <div class="row-fluid">
+                    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                    <br/>
+                    <small>
+                      <a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a>
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="company">
+
+        <div class="row-fluid">
           <div class="span4">
+            <div class="well">
+              <div class="row-fluid">
+                <div class="span12">
+                  <h3>Organisation complète des obsèques</h3>
+                  <hr/>
+                  <ul>
+                    <li>démarches et formalités administratives</li>
+                    <li>mise à disposition de véhicules funéraires (transport avant mise en bière, après mise en bière, et cérémonie)</li>
+                    <li>cercueil de qualité dans différentes essences de bois</li>
+                    <li>personnel diplômé</li>
+                    <li>soins de conservation ou préparation et habillage du défunt</li>
+                    <li>chambre funéraire (en fonction des volontés de la famille)</li>
+                    <li>avis de décès dans la presse locale (Républicain Lorrain)</li>
+                    <li>maître de cérémonie</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span8">
             <div class="row-fluid">
               <div class="span12">
                 <div class="well">
                   <div class="row-fluid">
                     <div class="span12">
-                      <table class="table">
-                        <thead>
-                          <tr>
-                            <th colspan="2">
-                              <h3>NOUS CONTACTER</h3>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th class="span5">
-                              <p>TEL</p>
-                            </th>
-                            <td class="span7">
-                              <p>
-                                <strong>03 87 38 11 20</strong>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th class="span5">
-                              <p>FAX</p>
-                            </th>
-                            <td class="span7">
-                              <p>
-                                <strong>09 85 42 23 64</strong>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th class="span5">
-                              <p>MAIL</p>
-                            </th>
-                            <td class="span7">
-                              <p>
-                                <strong><span><a class="linkclass" href="mailto:gml.weber@gmail.com">gml.weber@gmail.com</a></span></strong>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th class="span5">
-                              <p>ADRESSE</p>
-                            </th>
-                            <td class="span7">
-                              <p>
-                                <strong>25 RUE LOTHAIRE<br>
-                                  57000 METZ</strong>
-                                </p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <th rowspan="2" class="span5">
-                                <p>Horaires d'ouverture</p>
-                              </th>
-                              <td class="span7">
-                                <p>
-                                  du lundi au vendredi
-                                </p>
-                                <p>
-                                  de <strong>8h30 à 19h</strong>
-                                </p>
-                                <p>
-                                  le samedi
-                                </p>
-                                <p>
-                                  de <strong>9h à 15h</strong>
-                                </p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="span12">
-                        <div class="alert alert-error">
-                          <strong>Rappel immédiat et gratuit : renseigner votre numéro de téléphone</strong>
-                          <div class="row-fluid">
-                            <button id="recontact" class="span12 btn btn-danger">Cliquez ici</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row-fluid">
-                <div class="span12">
-                  <div class="well">
-                    <div class="row-fluid">
-                      <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-                      <br/>
-                      <small>
-                        <a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a>
-                      </small>
+                      <h3>Contrats Obsèques</h3>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="company">
-
-          <div class="row-fluid">
-            <div class="span4">
-              <div class="well">
-                <div class="row-fluid">
-                  <div class="span12">
-                    <h3>Organisation complète des obsèques</h3>
-                    <hr/>
-                    <ul>
-                      <li>démarches et formalités administratives</li>
-                      <li>mise à disposition de véhicules funéraires (transport avant mise en bière, après mise en bière, et cérémonie)</li>
-                      <li>cercueil de qualité dans différentes essences de bois</li>
-                      <li>personnel diplômé</li>
-                      <li>soins de conservation ou préparation et habillage du défunt</li>
-                      <li>chambre funéraire (en fonction des volontés de la famille)</li>
-                      <li>avis de décès dans la presse locale (Républicain Lorrain)</li>
-                      <li>maître de cérémonie</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="span8">
-              <div class="row-fluid">
-                <div class="span12">
-                  <div class="well">
-                    <div class="row-fluid">
-                      <div class="span12">
-                        <h3>Contrats Obsèques</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row-fluid">
-                <div class="span12">
-                  <div class="well">
-                    <div class="row-fluid">
-                      <div class="span12">
-                        <h3>Articles funéraires</h3>
-                        <hr/>
-                        <p>
-                          Un large choix de plaques en granit personnalisables, de Fleurs artificielles et de Fleurs fraîches (sur catalogue).
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row-fluid">
-                <div class="span12">
-                  <div class="well">
-                    <div class="row-fluid">
-                      <div class="span12">
-                        <h3>Marbrerie Funéraire</h3>
-                        <hr/>
-                        <p>
-                          Fourniture et pose de Caveaux, monuments funéraires et restauration de monuments.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row-fluid">
-            <div class="span12">
-              <div class="well">
-                <div id="carouselCampagny" class="carousel slide">
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="img/thumbnails/company1.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Un large choix d'articles funéraires: fleurs artificielles et plaques</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/company2.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Registre de condoléances, boîtes à cartes, cartes de remerciement</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/company3.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Un large choix d’articles funéraires: fleurs artificielles et plaques</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/company4.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Arrangement composé par des artisans fleuristes français</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/company5.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Agence 25 rue Lothaire 57000 Metz</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/company6.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Agence 25 rue Lothaire 57000 Metz</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <a class="carousel-control left" href="#carouselCampagny" data-slide="prev">&lt;</a>
-                  <a class="carousel-control right" href="#carouselCampagny" data-slide="next">></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="rate">
-          <div class="row-fluid">
-            <div class="span5">
-              <div class="row-fluid">
-                <div class="span12">
-                  <div class="well">
-                    <div class="row-fluid">
-                      <div class="span12">
-                        <h3>UN FORFAIT SIMPLIFIÉ</h3>
-                        <hr>
-                        <h4>Offre de départ comprenant :</h4>
-                        <ul>
-                          <li>les Démarches et Formalités administratives</li>
-                          <li>un Cercueil</li>
-                          <li>une Housse mortuaire</li>
-                          <li>la Mise en Bière</li>
-                          <li>un Corbillard pour Cérémonie</li>
-                          <li>4 Porteurs</li>
-                          <li>Crémation ou Inhumation</li>
-                        </ul>
-                        <hr>
-                        <h4>Prix: <strong class="label">1 990 € ttc</strong></h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="span7">
+            <div class="row-fluid">
               <div class="span12">
                 <div class="well">
-                  <div id="carouselRate" class="carousel slide">
-                    <div class="carousel-inner">
-                      <div class="item active">
-                        <img src="img/thumbnails/rate1.jpg" alt="">
-                        <div class="carousel-caption">
-                          <h4>Corbillard pour cérémonie</h4>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <img src="img/thumbnails/rate2.jpg" alt="">
-                        <div class="carousel-caption">
-                          <h4>Corbillard pour cérémonie</h4>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <img src="img/thumbnails/rate3.jpg" alt="">
-                        <div class="carousel-caption">
-                          <h4>Campagne Publicitaire</h4>
-                        </div>
-                      </div>
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <h3>Articles funéraires</h3>
+                      <hr/>
+                      <p>
+                        Un large choix de plaques en granit personnalisables, de Fleurs artificielles et de Fleurs fraîches (sur catalogue).
+                      </p>
                     </div>
-                    <a class="carousel-control left" href="#carouselRate" data-slide="prev">&lt;</a>
-                    <a class="carousel-control right" href="#carouselRate" data-slide="next">&gt;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span12">
+                <div class="well">
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <h3>Marbrerie Funéraire</h3>
+                      <hr/>
+                      <p>
+                        Fourniture et pose de Caveaux, monuments funéraires et restauration de monuments.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="tab-pane" id="coffin">
-
-          <div class="row-fluid">
+        <div class="row-fluid">
+          <div class="span12">
+            <div class="well">
+              <div id="carouselCampagny" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="img/thumbnails/company1.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Un large choix d'articles funéraires: fleurs artificielles et plaques</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/company2.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Registre de condoléances, boîtes à cartes, cartes de remerciement</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/company3.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Un large choix d’articles funéraires: fleurs artificielles et plaques</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/company4.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Arrangement composé par des artisans fleuristes français</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/company5.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Agence 25 rue Lothaire 57000 Metz</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/company6.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Agence 25 rue Lothaire 57000 Metz</h4>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control left" href="#carouselCampagny" data-slide="prev">&lt;</a>
+                <a class="carousel-control right" href="#carouselCampagny" data-slide="next">></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="rate">
+        <div class="row-fluid">
+          <div class="span5">
+            <div class="row-fluid">
+              <div class="span12">
+                <div class="well">
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <h3>UN FORFAIT SIMPLIFIÉ</h3>
+                      <hr>
+                      <h4>Offre de départ comprenant :</h4>
+                      <ul>
+                        <li>les Démarches et Formalités administratives</li>
+                        <li>un Cercueil</li>
+                        <li>une Housse mortuaire</li>
+                        <li>la Mise en Bière</li>
+                        <li>un Corbillard pour Cérémonie</li>
+                        <li>4 Porteurs</li>
+                        <li>Crémation ou Inhumation</li>
+                      </ul>
+                      <hr>
+                      <h4>Prix: <strong class="label">1 990 € ttc</strong></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span7">
             <div class="span12">
               <div class="well">
-                <div id="carouselCoffin" class="carousel slide">
+                <div id="carouselRate" class="carousel slide">
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="img/thumbnails/coffin1.jpg" alt="">
+                      <img src="img/thumbnails/rate1.jpg" alt="">
                       <div class="carousel-caption">
-                        <h4>Cercueils, gamme Inhumation</h4>
+                        <h4>Corbillard pour cérémonie</h4>
                       </div>
                     </div>
                     <div class="item">
-                      <img src="img/thumbnails/coffin2.jpg" alt="">
+                      <img src="img/thumbnails/rate2.jpg" alt="">
                       <div class="carousel-caption">
-                        <h4>Cercueils, gamme Inhumation</h4>
+                        <h4>Corbillard pour cérémonie</h4>
                       </div>
                     </div>
                     <div class="item">
-                      <img src="img/thumbnails/coffin3.jpg" alt="">
+                      <img src="img/thumbnails/rate3.jpg" alt="">
                       <div class="carousel-caption">
-                        <h4>Cercueils, gamme Inhumation</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/coffin4.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Cercueils, gamme Inhumation</h4>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="img/thumbnails/coffin5.jpg" alt="">
-                      <div class="carousel-caption">
-                        <h4>Un large choix d’urnes</h4>
+                        <h4>Campagne Publicitaire</h4>
                       </div>
                     </div>
                   </div>
-                  <a class="carousel-control left" href="#carouselCoffin" data-slide="prev">&lt;</a>
-                  <a class="carousel-control right" href="#carouselCoffin" data-slide="next">&gt;</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row-fluid">
-            <div class="span4">
-              <div class="well">
-                <div class="row-fluid">
-                  <div class="span12">
-                    <h3>Choix du cercueil</h3>
-                    <hr>
-                    <p>
-                      Le choix du cercueil est une étape importante dans l’organisation des obsèques. De manière générale, il est constitué de bois d’une épaisseur de 22 millimètres et doit obligatoirement être équipé d’un système d’étanchéité. Enfin, le cercueil ne sera pas le même s’il s’agit d’une inhumation ou d’une crémation : le bois sera plus ou moins résistant et travaillé.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="span4">
-              <div class="well">
-                <div class="row-fluid">
-                  <div class="span12">
-                    <h3>Les différents types de cercueils</h3>
-                    <hr>
-                    <p>
-                      Le choix d'un cercueil se fait en fonction des obsèques choisies, il s'agit donc d'un choix spécifique.
-                    </p>
-                    <ul>
-                      <li>
-                        Dans le cas d'une inhumation Le cercueil doit être assez résistant au temps et à l'humidité que dégage la terre. Les cercueils en chêne et en orme sont les plus utilisés pour leur bonne résistance.
-                      </li>
-                      <li>
-                        Dans le cas d'une crémation Le cercueil est destiné à être incinéré. C'est pourquoi le cercueil en pin et en aggloméré sont beaucoup plus utilisés.
-                      </li>
-                    </ul>
-                    <p>
-                      De plus, il existe différents types de cercueil au niveau des moulures et de la forme. Certains cercueils peuvent s'ouvrir à moitié (dit cercueils américains), d'autres peuvent comporter une vitre afin de voir le défunt.
-                    </p>
-                    <p>
-                      Il est aussi important lors de l'achat d'un cercueil de prêter attention aux prestations qui l’accompagnent. Les agences considèrent qu'un cercueil est composé du cercueil, de quatre poignées, du capiton et d’une croix.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="span4">
-              <div class="well">
-                <div class="row-fluid">
-                  <div class="span12">
-                    <h3>Les différents ornements</h3>
-                    <hr>
-                    <p>
-                      Après le choix du cercueil, il est possible de l'orner avec différents accessoires :
-                    </p>
-                    <ul>
-                      <li>
-                        4 poignées obligatoires possibilité d'en rajouter pour des raisons esthétiques ou pratiques
-                      </li>
-                      <li>
-                        Capitons tissu qui recouvre l'intérieur du cercueil
-                      </li>
-                      <li>
-                        Emblème religieux croix, croissant, étoile...
-                      </li>
-                      <li>
-                        Plaque avec le nom et prénom du défunt son année de naissance et de décès (obligatoire depuis janvier 2011)
-                      </li>
-                    </ul>
-                    <p>
-                      Le cercueil est généralement accompagné de fleurs de deuil.
-                    </p>
-                  </div>
+                  <a class="carousel-control left" href="#carouselRate" data-slide="prev">&lt;</a>
+                  <a class="carousel-control right" href="#carouselRate" data-slide="next">&gt;</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-        <hr>
-
-        <footer>
-          <p>Habilitation préfectorale 12-57-145</p>
-        </footer>
       </div>
-    </div> 
+      <div class="tab-pane" id="coffin">
+
+        <div class="row-fluid">
+          <div class="span12">
+            <div class="well">
+              <div id="carouselCoffin" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="img/thumbnails/coffin1.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Cercueils, gamme Inhumation</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/coffin2.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Cercueils, gamme Inhumation</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/coffin3.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Cercueils, gamme Inhumation</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/coffin4.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Cercueils, gamme Inhumation</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/coffin5.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Un large choix d’urnes</h4>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control left" href="#carouselCoffin" data-slide="prev">&lt;</a>
+                <a class="carousel-control right" href="#carouselCoffin" data-slide="next">&gt;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-fluid">
+          <div class="span4">
+            <div class="well">
+              <div class="row-fluid">
+                <div class="span12">
+                  <h3>Choix du cercueil</h3>
+                  <hr>
+                  <p>
+                    Le choix du cercueil est une étape importante dans l’organisation des obsèques. De manière générale, il est constitué de bois d’une épaisseur de 22 millimètres et doit obligatoirement être équipé d’un système d’étanchéité. Enfin, le cercueil ne sera pas le même s’il s’agit d’une inhumation ou d’une crémation : le bois sera plus ou moins résistant et travaillé.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span4">
+            <div class="well">
+              <div class="row-fluid">
+                <div class="span12">
+                  <h3>Les différents types de cercueils</h3>
+                  <hr>
+                  <p>
+                    Le choix d'un cercueil se fait en fonction des obsèques choisies, il s'agit donc d'un choix spécifique.
+                  </p>
+                  <ul>
+                    <li>
+                      Dans le cas d'une inhumation Le cercueil doit être assez résistant au temps et à l'humidité que dégage la terre. Les cercueils en chêne et en orme sont les plus utilisés pour leur bonne résistance.
+                    </li>
+                    <li>
+                      Dans le cas d'une crémation Le cercueil est destiné à être incinéré. C'est pourquoi le cercueil en pin et en aggloméré sont beaucoup plus utilisés.
+                    </li>
+                  </ul>
+                  <p>
+                    De plus, il existe différents types de cercueil au niveau des moulures et de la forme. Certains cercueils peuvent s'ouvrir à moitié (dit cercueils américains), d'autres peuvent comporter une vitre afin de voir le défunt.
+                  </p>
+                  <p>
+                    Il est aussi important lors de l'achat d'un cercueil de prêter attention aux prestations qui l’accompagnent. Les agences considèrent qu'un cercueil est composé du cercueil, de quatre poignées, du capiton et d’une croix.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span4">
+            <div class="well">
+              <div class="row-fluid">
+                <div class="span12">
+                  <h3>Les différents ornements</h3>
+                  <hr>
+                  <p>
+                    Après le choix du cercueil, il est possible de l'orner avec différents accessoires :
+                  </p>
+                  <ul>
+                    <li>
+                      4 poignées obligatoires possibilité d'en rajouter pour des raisons esthétiques ou pratiques
+                    </li>
+                    <li>
+                      Capitons tissu qui recouvre l'intérieur du cercueil
+                    </li>
+                    <li>
+                      Emblème religieux croix, croissant, étoile...
+                    </li>
+                    <li>
+                      Plaque avec le nom et prénom du défunt son année de naissance et de décès (obligatoire depuis janvier 2011)
+                    </li>
+                  </ul>
+                  <p>
+                    Le cercueil est généralement accompagné de fleurs de deuil.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <hr>
+
+      <footer>
+        <p>Habilitation préfectorale 12-57-145</p>
+      </footer>
+    </div>
+  </div> 
 
 
 
-    <!-- /container -->
-    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <!-- /container -->
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 
-    <script src="js/libs/bootstrap/tab.js"></script>
-    <script src="js/libs/bootstrap/transition.js"></script>
-    <script src="js/libs/bootstrap/carousel.js"></script>
-    <script src="js/libs/bootstrap/collapse.js"></script>
-    <!-- <script src="js/libs/bootstrap/bootstrap.min.js"></script> -->
+  <script src="js/libs/bootstrap/tab.js"></script>
+  <script src="js/libs/bootstrap/transition.js"></script>
+  <script src="js/libs/bootstrap/carousel.js"></script>
+  <script src="js/libs/bootstrap/collapse.js"></script>
+  <!-- <script src="js/libs/bootstrap/bootstrap.min.js"></script> -->
 
-    <!-- <script src="js/script.js"></script> -->
-    <script>
-    var _gaq=[['_setAccount','UA-33521404-1'],['_trackPageview']];
-    (function(d,t){
-      var g=d.createElement(t),
-      s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)
-    }(document,'script'));
+  <!-- <script src="js/script.js"></script> -->
+  <script>
+  var _gaq=[['_setAccount','UA-33521404-1'],['_trackPageview']];
+  (function(d,t){
+    var g=d.createElement(t),
+    s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)
+  }(document,'script'));
 
 
-    (function(d){
-      d.getElementById('recontact').onclick = function(){
-        debugger;
-        var to = 'gml.weber@gmail.com';
-        var subject = 'Demande de contact - Pompes Funèbres Weber';
-        var body = 'Rappelez-moi au : '
-        var numero = prompt('Renseignez votre numéro de téléphone');
+  (function(d){
+    d.getElementById('recontact').onclick = function(){
+      debugger;
+      var to = 'gml.weber@gmail.com';
+      var subject = 'Demande de contact - Pompes Funèbres Weber';
+      var body = 'Rappelez-moi au : '
+      var numero = prompt('Renseignez votre numéro de téléphone');
 
-        var mailto = 'mailto:'+to+'?subject='+subject+'&body='+body+numero;
+      var mailto = 'mailto:'+to+'?subject='+subject+'&body='+body+numero;
 
-        if(numero !== '' && numero !== null && typeof numero !== 'undefined')
-          location.href = mailto;
-      }
-    }(document));
-    </script>
+      if(numero !== '' && numero !== null && typeof numero !== 'undefined')
+        location.href = mailto;
+    }
+  }(document));
+  </script>
 
-  </body>
-  </html>
+</body>
+</html>
