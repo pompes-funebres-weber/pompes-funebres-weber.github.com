@@ -66,3 +66,14 @@
       margin-top: 25px;
     }
   }
+
+  .navbar .nav > li > a {
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .navbar .brand {
+    padding-left: 4px;
+  }
