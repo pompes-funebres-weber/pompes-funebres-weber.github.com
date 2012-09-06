@@ -20,83 +20,66 @@
 
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/bootstrap.simplex.css">
-
-  <!-- <link href="css/bootstrap.amelia.css" title="amelia" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.cerulean.css" title="cerulean" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.cyborg.css" title="cyborg" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.journal.css" title="journal" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.readable.css" title="readable" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.simplex.css" title="simplex" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.splate.css" title="splate" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.spacelab.css" title="spacelab" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.spruce.css" title="spruce" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.superhero.css" title="superhero" rel="alternate stylesheet" type="text/css">
-  <link href="css/bootstrap.united.css" title="united" rel="alternate stylesheet" type="text/css"> -->
-
+  <link rel="stylesheet" href="css/bootstrap.css">
   <style>
   body {
    padding-top: 30px;
    padding-bottom: 30px;
  }
  </style>
- <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+ <link rel="stylesheet" href="css/bootstrap-responsive.css">
  <link rel="stylesheet" href="css/style.css">
-
-	<!--[if lt IE 9]>
-	<script src="js/libs/html5-3.4-respond-1.1.0.min.js"></script>
-	<![endif]-->
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
   <div class="container">
     <header>
-    <div class="hero-unit hidden-phone">
-      <div class="row-fluid">
-        <img class="span3 visible-desktop" src="img/logo.png" alt="Pompes funèbres Weber">
-        <div class="span9 visible-desktop">
-          <h1>
-            Pompes Funèbres
-            <br/>
-            WEBER
-          </h1>
-          <h2>Une famille au service de la votre</h2>
-          <h2>03 87 38 11 20</h2>
-        </div>
-        <div class="span12 hidden-desktop">
-          <h1>
-            Pompes Funèbres
-            <br/>
-            WEBER
-          </h1>
-          <h2>Une famille au service de la votre</h2>
-          <h2>03 87 38 11 20</h2>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span>Menu</span>
-          </a>
-          <a class="brand" href="#home">
-            <img height="36" src="img/logo-header.png" alt="Pompes funèbres Weber">
-            PFW
-          </a>
-          <p class="navbar-text visible-phone pull-left">Une famille au service de la votre</p>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="#home">Accueil</a></li>
-              <li><a href="#company">Présentation de l'agence</a></li>
-              <li><a href="#rate">Forfait simplifié</a></li>
-            </ul>
+      <div class="hero-unit hidden-phone">
+        <div class="row-fluid">
+          <img class="span3 visible-desktop" src="img/logo.png" alt="Pompes funèbres Weber">
+          <div class="span9 visible-desktop">
+            <h1>
+              Pompes Funèbres
+              <br/>
+              WEBER
+            </h1>
+            <h2>Une famille au service de la votre</h2>
+            <h2>03 87 38 11 20</h2>
+          </div>
+          <div class="span12 hidden-desktop">
+            <h1>
+              Pompes Funèbres
+              <br/>
+              WEBER
+            </h1>
+            <h2>Une famille au service de la votre</h2>
+            <h2>03 87 38 11 20</h2>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span>Menu</span>
+            </a>
+            <a class="brand" href="#home">
+              <img id='menulogo' src="img/logo-header.png" alt="Pompes funèbres Weber">
+              PFW
+            </a>
+            <p class="navbar-text visible-phone pull-left">Une famille au service de la votre</p>
+            <div class="nav-collapse">
+              <ul class="nav">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#company">Présentation de l'agence</a></li>
+                <li><a href="#rate">Forfait simplifié</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <div class="tab-content">
@@ -106,29 +89,30 @@
         <div class="row-fluid">
           <div class="span7">
             <div class="well">
-              <div id="carouselHome" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="img/thumbnails/home1.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Agence 25 rue Lothaire 57000 Metz</h4>
+              <div class="row-fluid">
+                <div id="carouselHome" class="carousel slide" data-pause='click'>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/thumbnails/home1.jpg" alt="" />
+                      <div class="carousel-caption">
+                        <h4>Agence 25 rue Lothaire 57000 Metz</h4>
+                      </div>
                     </div>
-                  </div>
-                  <div class="item">
-                    <img src="img/thumbnails/home2.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Un large choix d’articles funéraires: fleurs artificielles et plaques</h4>
+                    <div class="item">
+                      <img src="img/thumbnails/home2.jpg" alt="" />
+                      <div class="carousel-caption">
+                        <h4>Un large choix d’articles funéraires: fleurs artificielles et plaques</h4>
+                      </div>
+                    </div> 
+                    <div class="item">
+                      <img src="img/thumbnails/home3.jpg" alt="" />
+                      <div class="carousel-caption">
+                        <h4>Un large choix d’articles funéraires: fleurs artificielles et plaques</h4>
+                      </div>
                     </div>
-                  </div>
-                  <div class="item">
-                    <img src="img/thumbnails/home3.jpg" alt="">
-                    <div class="carousel-caption">
-                      <h4>Un large choix d’articles funéraires: fleurs artificielles et plaques</h4>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="img/thumbnails/home4.jpg" alt="">
-                    <div class="carousel-caption">
+                    <div class="item">
+                     <img src="img/thumbnails/home4.jpg" alt="" />
+                     <div class="carousel-caption">
                       <h4>Arrangement composé par des artisans fleuristes français</h4>
                     </div>
                   </div>
@@ -137,102 +121,170 @@
                 <a class="carousel-control right" href="#carouselHome" data-slide="next">&gt;</a>
               </div>
             </div>
+          </div>
+          <div class="well">
+            <div class="row-fluid">
+              <div class="span12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th colspan="2">
+                        <h3>NOUS CONTACTER</h3>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="span5">
+                        <p>TEL</p>
+                      </th>
+                      <td class="span7">
+                        <p>
+                          <strong>03 87 38 11 20</strong>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="span5">
+                        <p>FAX</p>
+                      </th>
+                      <td class="span7">
+                        <p>
+                          <strong>09 85 42 23 64</strong>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="span5">
+                        <p>MAIL</p>
+                      </th>
+                      <td class="span7">
+                        <p>
+                          <strong><span><a class="linkclass" href="mailto:gml.weber@gmail.com">gml.weber@gmail.com</a></span></strong>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="span5">
+                        <p>ADRESSE</p>
+                      </th>
+                      <td class="span7">
+                        <p>
+                          <strong>25 RUE LOTHAIRE 57000 METZ</strong>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2" class="span5">
+                        <p>Horaires d'ouverture</p>
+                      </th>
+                      <td class="span7">
+                        <p>
+                          du lundi au vendredi
+                        </p>
+                        <p>
+                          de <strong>8h30 à 19h</strong>
+                        </p>
+                        <p>
+                          le samedi
+                        </p>
+                        <p>
+                          de <strong>9h à 15h</strong>
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
 
-            <div class="well">
-              <div class="row-fluid">
-                <div class="span12">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th colspan="2">
-                          <h3>NOUS CONTACTER</h3>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th class="span5">
-                          <p>TEL</p>
-                        </th>
-                        <td class="span7">
-                          <p>
-                            <strong>03 87 38 11 20</strong>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th class="span5">
-                          <p>FAX</p>
-                        </th>
-                        <td class="span7">
-                          <p>
-                            <strong>09 85 42 23 64</strong>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th class="span5">
-                          <p>MAIL</p>
-                        </th>
-                        <td class="span7">
-                          <p>
-                            <strong><span><a class="linkclass" href="mailto:gml.weber@gmail.com">gml.weber@gmail.com</a></span></strong>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th class="span5">
-                          <p>ADRESSE</p>
-                        </th>
-                        <td class="span7">
-                          <p>
-                            <strong>25 RUE LOTHAIRE 57000 METZ</strong>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th rowspan="2" class="span5">
-                          <p>Horaires d'ouverture</p>
-                        </th>
-                        <td class="span7">
-                          <p>
-                            du lundi au vendredi
-                          </p>
-                          <p>
-                            de <strong>9h à 19h</strong>
-                          </p>
-                          <p>
-                            le samedi
-                          </p>
-                          <p>
-                            de <strong>9h à 15h</strong>
-                          </p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+        </div>
+        <div class="span5">
+          <div class="row-fluid">
+            <div class="span12">
+
+              <div class="alert alert-error">
+                <strong>Rappel immédiat et gratuit : renseigner votre numéro de téléphone</strong>
+                <div class="row-fluid">
+                  <button id="recontact" class="span12 btn btn-danger">Cliquez ici</button>
+                </div>
+              </div>
+              <div class="well">
+                <div class="row-fluid">
+                  <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                  <br/>
+                  <small>
+                    <a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a>
+                  </small>
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="span5">
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="company">
+
+      <div class="row-fluid">
+        <div class="span4">
+          <div class="well">
             <div class="row-fluid">
               <div class="span12">
-
-                <div class="alert alert-error">
-                  <strong>Rappel immédiat et gratuit : renseigner votre numéro de téléphone</strong>
-                  <div class="row-fluid">
-                    <button id="recontact" class="span12 btn btn-danger">Cliquez ici</button>
+                <h3>Organisation complète des obsèques</h3>
+                <hr/>
+                <ul>
+                  <li>démarches et formalités administratives</li>
+                  <li>mise à disposition de véhicules funéraires (transport avant mise en bière, après mise en bière, et cérémonie)</li>
+                  <li>cercueil de qualité dans différentes essences de bois</li>
+                  <li>personnel diplômé</li>
+                  <li>soins de conservation ou préparation et habillage du défunt</li>
+                  <li>chambre funéraire (en fonction des volontés de la famille)</li>
+                  <li>avis de décès dans la presse locale (Républicain Lorrain)</li>
+                  <li>maître de cérémonie</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span8">
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="well">
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h3>Contrats Obsèques</h3>
                   </div>
                 </div>
-                <div class="well">
-                  <div class="row-fluid">
-                    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-                    <br/>
-                    <small>
-                      <a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=25+Rue+Lothaire,+57000+Metz&amp;sll=49.06127,5.678558&amp;sspn=1.470343,4.603271&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=25+Rue+Lothaire,+57000+Metz,+Moselle,+Lorraine&amp;ll=49.100117,6.179123&amp;spn=0.019669,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a>
-                    </small>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="well">
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h3>Articles funéraires</h3>
+                    <hr/>
+                    <p>
+                      Un large choix de plaques en granit personnalisables, de Fleurs artificielles et de Fleurs fraîches (sur catalogue).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="well">
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h3>Marbrerie Funéraire</h3>
+                    <hr/>
+                    <p>
+                      Fourniture et pose de Caveaux, monuments funéraires et restauration de monuments.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -240,77 +292,11 @@
           </div>
         </div>
       </div>
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="well">
 
-      <div class="tab-pane" id="company">
-
-        <div class="row-fluid">
-          <div class="span4">
-            <div class="well">
-              <div class="row-fluid">
-                <div class="span12">
-                  <h3>Organisation complète des obsèques</h3>
-                  <hr/>
-                  <ul>
-                    <li>démarches et formalités administratives</li>
-                    <li>mise à disposition de véhicules funéraires (transport avant mise en bière, après mise en bière, et cérémonie)</li>
-                    <li>cercueil de qualité dans différentes essences de bois</li>
-                    <li>personnel diplômé</li>
-                    <li>soins de conservation ou préparation et habillage du défunt</li>
-                    <li>chambre funéraire (en fonction des volontés de la famille)</li>
-                    <li>avis de décès dans la presse locale (Républicain Lorrain)</li>
-                    <li>maître de cérémonie</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span8">
             <div class="row-fluid">
-              <div class="span12">
-                <div class="well">
-                  <div class="row-fluid">
-                    <div class="span12">
-                      <h3>Contrats Obsèques</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="span12">
-                <div class="well">
-                  <div class="row-fluid">
-                    <div class="span12">
-                      <h3>Articles funéraires</h3>
-                      <hr/>
-                      <p>
-                        Un large choix de plaques en granit personnalisables, de Fleurs artificielles et de Fleurs fraîches (sur catalogue).
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="span12">
-                <div class="well">
-                  <div class="row-fluid">
-                    <div class="span12">
-                      <h3>Marbrerie Funéraire</h3>
-                      <hr/>
-                      <p>
-                        Fourniture et pose de Caveaux, monuments funéraires et restauration de monuments.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span12">
-            <div class="well">
               <div id="carouselCampagny" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="item active">
@@ -357,37 +343,40 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="rate">
-        <div class="row-fluid">
-          <div class="span5">
-            <div class="row-fluid">
-              <div class="span12">
-                <div class="well">
-                  <div class="row-fluid">
-                    <div class="span12">
-                      <h3>UN FORFAIT SIMPLIFIÉ</h3>
-                      <hr>
-                      <h4>Offre de départ comprenant :</h4>
-                      <ul>
-                        <li>les Démarches et Formalités administratives</li>
-                        <li>un Cercueil</li>
-                        <li>une Housse mortuaire</li>
-                        <li>la Mise en Bière</li>
-                        <li>un Corbillard pour Cérémonie</li>
-                        <li>4 Porteurs</li>
-                        <li>Crémation ou Inhumation</li>
-                      </ul>
-                      <hr>
-                      <h4>Prix: <strong class="label">1 990 € ttc</strong></h4>
-                    </div>
+    </div>
+    <div class="tab-pane" id="rate">
+      <div class="row-fluid">
+        <div class="span5">
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="well">
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h3>UN FORFAIT SIMPLIFIÉ</h3>
+                    <hr>
+                    <h4>Offre de départ comprenant :</h4>
+                    <ul>
+                      <li>les Démarches et Formalités administratives</li>
+                      <li>un Cercueil</li>
+                      <li>une Housse mortuaire</li>
+                      <li>la Mise en Bière</li>
+                      <li>un Corbillard pour Cérémonie</li>
+                      <li>4 Porteurs</li>
+                      <li>Crémation ou Inhumation</li>
+                    </ul>
+                    <hr>
+                    <h4>Prix: <strong class="label">1 990 € ttc</strong></h4>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="span7">
-            <div class="span12">
-              <div class="well">
+        </div>
+        <div class="span7">
+          <div class="span12">
+            <div class="well">
+
+              <div class="row-fluid">
                 <div id="carouselRate" class="carousel slide">
                   <div class="carousel-inner">
                     <div class="item active">
@@ -412,50 +401,51 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <hr>
+  <hr>
 
-    <footer>
-      <p>Habilitation préfectorale 12-57-145</p>
-      <p>EURL Pompes Funèbres Weber - RCS : 751 513 383 000 16 RCS Metz - Capital social : 7500 € - 25 rue Lothaire 57000 Metz</p>
-      <p>Directrice de rédaction : <abbr title="Gabrielle">G</abbr> Weber</p>
-      <p>Hébergé par <a href="http://pages.github.com/">GitHub Pages</a></p>
-    </footer>
-  </div> 
-
-
-
-  <!-- /container -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.0.4/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
-  <script src="js/script.js"></script>
-  <script>
-  var _gaq=[['_setAccount','UA-33521404-1'],['_trackPageview']];
-  (function(d,t){
-    var g=d.createElement(t),
-    s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)
-  }(document,'script'));
+  <footer>
+    <p>Habilitation préfectorale 12-57-145</p>
+    <p>EURL Pompes Funèbres Weber - RCS : 751 513 383 000 16 RCS Metz - Capital social : 7500 € - 25 rue Lothaire 57000 Metz</p>
+    <p>Directrice de rédaction : <abbr title="Gabrielle">G</abbr> Weber</p>
+    <p>Hébergé par <a href="http://pages.github.com/">GitHub Pages</a></p>
+  </footer>
+</div> 
 
 
-  (function(d){
-    d.getElementById('recontact').onclick = function(){
-      debugger;
-      var to = 'gml.weber@gmail.com';
-      var subject = 'Demande de contact - Pompes Funèbres Weber';
-      var body = 'Rappelez-moi au : '
-      var numero = prompt('Renseignez votre numéro de téléphone');
 
-      var mailto = 'mailto:'+to+'?subject='+subject+'&body='+body+numero;
+<!-- /container -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
+<script src="js/script.js"></script>
+<script>
+var _gaq=[['_setAccount','UA-33521404-1'],['_trackPageview']];
+(function(d,t){
+  var g=d.createElement(t),
+  s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)
+}(document,'script'));
 
-      if(numero !== '' && numero !== null && typeof numero !== 'undefined')
-        location.href = mailto;
-    }
-  }(document));
-  </script>
+
+(function(d){
+  d.getElementById('recontact').onclick = function(){
+    debugger;
+    var to = 'gml.weber@gmail.com';
+    var subject = 'Demande de contact - Pompes Funèbres Weber';
+    var body = 'Rappelez-moi au : '
+    var numero = prompt('Renseignez votre numéro de téléphone');
+
+    var mailto = 'mailto:'+to+'?subject='+subject+'&body='+body+numero;
+
+    if(numero !== '' && numero !== null && typeof numero !== 'undefined')
+      location.href = mailto;
+  }
+}(document));
+</script>
 
 </body>
 </html>

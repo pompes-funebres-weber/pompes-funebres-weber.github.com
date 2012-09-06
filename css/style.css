@@ -1,15 +1,20 @@
 
 
-/* ===== Primary Styles ========================================================
-   Author:
-   ========================================================================== */
-   .hero-unit { text-align: center; }
+/*
+  ===== Primary Styles ========================================================
+  Author:
+  ==========================================================================
+  */
 
-   .carousel-inner { text-align: center; }
+  #menulogo {
+    height: 36px;
+  }
 
-   .carousel .item > img { display: inline-block; }
+  .hero-unit { 
+    text-align: center;
+  }
 
-   .alert {
+  .alert {
     padding-right: 18px;
   }
 
@@ -86,4 +91,16 @@
 
   footer > p {
     margin-bottom: 0px;
+  }
+
+  .carousel .item > img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .carousel .item {
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
   }
