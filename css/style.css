@@ -6,16 +6,31 @@
   ==========================================================================
   */
 
+  body {
+    background-color: rgb(243, 243, 243);
+  }
+
   #menulogo {
     height: 36px;
   }
 
   .hero-unit { 
     text-align: center;
+    background-color: white;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 6px 6px 6px 6px;
   }
+
+.well {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    border: medium none;
+}
 
   .alert {
     padding-right: 18px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    border: medium none;
   }
 
   .navbar .brand {
@@ -81,6 +96,11 @@
 
   .navbar .brand {
     padding-left: 4px;
+  }
+
+  .navbar .btn-navbar {
+    color: rgb(119, 119, 119);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
   }
 
   footer {
